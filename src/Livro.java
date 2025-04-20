@@ -7,8 +7,13 @@ public class Livro {
     public void setTitulo(String titulo){
         this.Titulo = titulo;
     }
+    public void setDescricao(String descricao){
+        this.Descricao = descricao;
+    }
+    public void setIsbn(String isbn){
+        this.isbn = isbn;
+    }
     public String getTitulo() {
         return Titulo;
     }
-    
 }
